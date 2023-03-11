@@ -1,0 +1,11 @@
+.counter_head{
+    padding: 10px;
+    color: red;
+    font-size: 27px;
+    font-weight: 900;
+}
+.btn_cover button{
+    margin: 0 6px;
+    font-size: 22px;
+    font-weight: 700;
+}
