@@ -3,10 +3,10 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 box-shadow: 0 2px 5px rgba(0,0,0,0.25);
-padding: 20px;
+padding: 10px;
 margin: 5px 0;
 border-radius: 9px;
-background-color: red;
+background-color: #cbc6c6;
 }
 .exprense_item h5{
     font-size: 16px;
@@ -26,8 +26,8 @@ color: #fff;
 }
 .exprense_item_prices{
     width: 70px;
-    border: 2px solid gold;
-    background: hotpink;
+    border: 2px solid #dddace;
+    background: #cbb8c2;
     color: #fff;
 border-radius: 5px;
 padding: 3px 10px;
