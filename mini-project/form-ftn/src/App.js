@@ -1,10 +1,12 @@
-import User from './User.js'
+import UserFtn from './UserFtn.js'
+import UserCls from './UserCls.js'
 
 function App() {
   return (
     <div className="App">
     <>
-    <User/>
+    <UserFtn/>
+    <UserCls/>
 
     </>
     </div>
