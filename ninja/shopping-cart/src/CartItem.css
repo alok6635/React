@@ -1,0 +1,21 @@
+.cart_item{
+    display: flex;
+    margin: 20px 10px;
+  }
+  .img_cover{
+  margin: 0 10px;
+}
+.item_actions{
+    display: flex;
+}
+.cart_data div{
+    margin-bottom: 4px;
+}
+ .card_icons{
+    width: 25px;
+    height: 25px;
+    margin: 0 1px   ;
+ }
+  .card_icons:hover {
+    cursor: pointer;
+  }
