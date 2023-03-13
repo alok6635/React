@@ -1,4 +1,4 @@
-.expense_date{
+.exp_time{
     display: flex;
     flex-direction: column;
     width: 80px;
@@ -11,7 +11,3 @@
     justify-content: center;
 }
 
-.expense_date_month,year.day {
-    font-size: 14px;
-    font-weight: bold;
-}

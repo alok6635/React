@@ -14,13 +14,18 @@ export default class CartItem extends React.Component {
     
     }
     IncreaseQty =()=>{
-        console.log('this', this.state)
+      // this.state.qty =+ 1;
+        console.log('this', this.state);
+        this.setState({
+          qty:this.state.qty =1
+        })
     }
 
   render() {
     const{prices,title, qty}= this.state;
     return(
       <div>
+        <h1>Class based Component -</h1>
         <div className="cart_item">
           <div className="img_cover">
             <img style={styles.image} />
