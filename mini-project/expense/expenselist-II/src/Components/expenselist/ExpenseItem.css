@@ -1,0 +1,46 @@
+.exp_cover {
+    display: flex;
+    background: red;
+    justify-content: space-between;
+    border-radius: 14px;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+.exp_involpe{
+    display: flex;
+    align-items: center;
+}
+.exp_data {
+    margin: 0 10px;
+    padding: 10px;
+}
+.exp_data div{
+    font-size: 20px;
+    color: #fff;
+}
+.exp_content p{
+    font-size: 22px ;
+    color: #fff;
+}
+.exp_price{
+    font-size: 22px;
+    color: #fff;
+    border: 2px solid forestgreen;
+    padding: 5px;
+    border-radius: 10px;
+    background: pink;
+}
+.exp_time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amount_cover{
+    display: flex;
+}
+.amount_cover button{
+    border-radius: 9px;
+    background: indianred;
+    margin: 0 5px;
+}
