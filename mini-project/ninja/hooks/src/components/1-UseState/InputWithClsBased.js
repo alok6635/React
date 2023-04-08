@@ -1,6 +1,6 @@
 import React from "react";
 
-class BasicForm extends React.Component {
+class InputWithClsBased extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -25,6 +25,7 @@ class BasicForm extends React.Component {
     return (
       <>
         <div className="wrapper">
+      <h5>Class based - </h5>
           <form>
             <label>Name</label>
             <br />
@@ -42,4 +43,4 @@ class BasicForm extends React.Component {
   }
 }
 
-export default BasicForm;
+export default InputWithClsBased;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BasicForm = () => {
+const InputWithFtnBased = () => {
   const [name, setName] = useState("Alok");
   const [lastName, setlastName] = useState("Kumar");
 
@@ -11,6 +11,7 @@ const BasicForm = () => {
   return (
     <>
       <div className="wrapper">
+      <h5>function based - </h5>
         <form>
           <label>Name</label>
           <br />
@@ -29,4 +30,4 @@ const BasicForm = () => {
 
 };
 
-export default BasicForm;
+export default InputWithFtnBased;

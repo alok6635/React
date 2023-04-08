@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-export default function AdvanceForm() {
+export default function AdvanceInputFtn() {
  const initialState = {
     username:"",
     password:" ",
@@ -13,6 +13,7 @@ export default function AdvanceForm() {
   return (
     <>
       <div className="wrapper">
+      <h1> Advance Input in functional based -</h1>
         <form>
           <label>Name</label>
           <br/>

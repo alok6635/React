@@ -1,7 +1,6 @@
 import React from "react";
-import './UserCls.css'
 
-export default class UserCls extends React.Component {
+export default class AdvanceInputCls extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -16,7 +15,7 @@ export default class UserCls extends React.Component {
   render() {
     return (
       <div>
-        <h2> User Input in class based -</h2>
+        <h1> Advance Input in class based -</h1>
         <form>
         <input className="formIN"
           type="text"
