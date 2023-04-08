@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 
 const Section = () => {
+    
     const Wrapper = styled.section`
     width : 100%;
     margin :0 auto;
