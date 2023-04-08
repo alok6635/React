@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 
 export default function InputWithFunction(){
     const [name,setName] = useState("Harry");
-    const [lastName,setLastname] = useState("Kittu");
+    const [lastName,setLastname] = useState("singh");
 
     useEffect(()=>{
         document.title = name+" "+lastName;
