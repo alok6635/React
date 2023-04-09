@@ -22,7 +22,7 @@ export default class CartItem extends React.Component {
             <img style={styles.image} />
           </div>
           <div className="cart_data">
-            <div style={{ fontSize: 25, color: "red" }}>{qty}</div>
+            <div style={{ fontSize: 25, color:"red"}}>{qty}</div>
           <div className="price" style={styles.price}>{prices}</div>
             <div className="title" style={styles.title}>{title}</div>
             <div className="item_actions">

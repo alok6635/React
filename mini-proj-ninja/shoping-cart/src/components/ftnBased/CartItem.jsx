@@ -1,11 +1,15 @@
+import { useState } from 'react';
 import './cartItem.css'
 
-function CartItem(){
+const CartItem=()=>{
     const qty =1;
     const Price =700;
     const title = 'Mobile';
 
+  
+
     return(
+        
         <>
 <h5>functional based component -</h5>
 <div>
