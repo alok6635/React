@@ -1,9 +1,10 @@
-import React from 'react'
-const MiPhone = ({miList}) => {
+import React from 'react';
+import './miphone.css';
 
+const MiPhone = ({miList}) => {
   return (
     <div className='features'>
-    <h2> Mi Phones Store </h2>
+    <h5> Mi Phones Store </h5>
       <ul>
       {
         miList.map((element, index)=>(
