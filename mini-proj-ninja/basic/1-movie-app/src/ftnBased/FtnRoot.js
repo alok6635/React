@@ -8,6 +8,7 @@ import MovieListSecond from "./part-IV/MovieListSecond";
 import MovieListThrid from "./part-V/MovieListThrid";
 import Stage from './staging/Stage';
 
+
 const FtnRoot = () => {
   return (
     <>

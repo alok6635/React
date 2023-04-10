@@ -1,4 +1,4 @@
-export const moviesItem = [
+export const ToatlMovie = [
     {
     title: "The Avengers",
     plot: "Plot of the movie is related to super natural powers",

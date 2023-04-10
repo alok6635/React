@@ -37,11 +37,9 @@ function MovieCard(props){
                             onClick={() => onClickFav(movies)}> 
                                 
                                 {fav ? "Un-favourite":"Favourite"}
-
                     </button>
                     <button className={isInCart?"unfavourite-btn":"cart-btn"}  
                             onClick={() => onClickAddtocart(movies)}>
-                                
                                     {isInCart ? "Remove from Cart":"Add to Cart"}
                     </button>
                 </div>

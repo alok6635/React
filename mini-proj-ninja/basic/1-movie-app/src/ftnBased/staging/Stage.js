@@ -1,13 +1,13 @@
 import React from "react";
 import MovieList from "./MovieList";
 import NavBar from "./NavBar";
-import {moviesItem} from "./MoviesData";
+import {ToatlMovie} from "./MoviesData";
 
 export default class Stage extends React.Component{
   constructor(){
     super();
     this.state = {
-        movies : moviesItem,
+        movies : ToatlMovie,
         cartCount: 0
     } 
   }
@@ -18,7 +18,6 @@ export default class Stage extends React.Component{
   if(movies[movieId].stars <10){
       movies[movieId].stars += 1
   }
-
   this.setState({
       movies
   });
@@ -31,11 +30,9 @@ export default class Stage extends React.Component{
   if(movies[movieId].stars > 0){
       movies[movieId].stars -= 1;
   }
-
   this.setState({
       movies
   })
-
   }
 
   handleToggleFav = (movie)=> {
@@ -73,7 +70,7 @@ export default class Stage extends React.Component{
     return(
       <>
       <NavBar cartCount={cartCount}/>
-      <MovieList movies ={moviesItem}
+      <MovieList movies ={ToatlMovie}
                  onIncStars = {this.handleAddStars}
                  onDecStars = {this.handleDecStars}
                  onClickFav = {this.handleToggleFav}
