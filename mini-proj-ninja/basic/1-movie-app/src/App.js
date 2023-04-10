@@ -4,8 +4,8 @@ import ClsRoot from "./clsBased/ClsRoot";
 function App() {
   return (
     <>
-      {/* <FtnRoot /> */}
-      <ClsRoot />
+      <FtnRoot />
+      {/* <ClsRoot /> */}
     </>
   );
 }

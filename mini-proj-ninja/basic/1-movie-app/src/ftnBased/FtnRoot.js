@@ -1,23 +1,22 @@
 import React from "react";
-//Navbar component-
-import NavBarRoot from "./NavBarStyle/NavBarRoot";
-//card component-
-import MovieCardFirst from "./cart/Step-I/MovieCardFirst";
-import MovieCardSecond from "./cart/step-II/MovieCardSecond";
-import MovieListFirst from "./cart/step-III/MovieListFirst";
-import MovieListSecond from "./cart/step-IV/MovieListSecond";
-import MovieListThrid from "./cart/step-V/MovieListThrid";
 
+//card component-
+import MovieCardFirst from "./part-I/MovieCardFirst";
+import MovieCardSecond from "./part-II/MovieCardSecond";
+import MovieListFirst from "./part-III/MovieListFirst";
+import MovieListSecond from "./part-IV/MovieListSecond";
+import MovieListThrid from "./part-V/MovieListThrid";
+import Stage from './staging/Stage';
 
 const FtnRoot = () => {
   return (
     <>
-      {/* <NavBarRoot /> */}
       {/* <MovieCardFirst /> */}
       {/* <MovieCardSecond /> */}
       {/* <MovieListFirst /> */}
       {/* <MovieListSecond /> */}
-      <MovieListThrid />
+      {/* <MovieListThrid /> */}
+      <Stage/>
     </>
   );
 };

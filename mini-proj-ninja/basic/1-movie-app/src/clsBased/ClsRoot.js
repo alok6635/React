@@ -17,7 +17,7 @@ class ClsRoot extends React.Component {
         {/* <MovieListThrid/> */}
         {/* <MovieListFourth/> */}
         {/* <MovieListFifth/> */}
-        <Stage/>
+        {/* <Stage/> */}
       </>
     );
   }

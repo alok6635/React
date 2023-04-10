@@ -32,20 +32,7 @@ const MovieListThrid = () => {
       addFav: "favourite-btn",
       AddCart: "Add to cart",
     },
-    {
-      Image:
-      'https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg',
-      Title: "Functional Based-",
-      plot: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      price: 199,
-      rating: 5.5,
-      StarValue: 3,
-      decreaseBtn: "https://cdn-icons-png.flaticon.com/128/2801/2801932.png",
-      star: "https://cdn-icons-png.flaticon.com/128/2107/2107957.png",
-      IncreaseBtn: "https://cdn-icons-png.flaticon.com/128/2997/2997933.png",
-      addFav: "favourite-btn",
-      AddCart: "Add to cart",
-    },
+   
   ];
 
   return (

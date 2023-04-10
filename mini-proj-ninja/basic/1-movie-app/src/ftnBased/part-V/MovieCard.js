@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 
 function MovieCard(props) {
-
 const[StarValue,setStarValue]=useState(0);
  let handleIncrement=(data)=>{
-  //console.log("parameter",data)
-  //console.log(StarValue)
+
   if (StarValue + data >= 0) {
     setStarValue(StarValue+ data)
   }
