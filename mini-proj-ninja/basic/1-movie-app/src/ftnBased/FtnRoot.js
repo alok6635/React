@@ -6,7 +6,7 @@ import MovieCardSecond from "./part-II/MovieCardSecond";
 import MovieListFirst from "./part-III/MovieListFirst";
 import MovieListSecond from "./part-IV/MovieListSecond";
 import MovieListThrid from "./part-V/MovieListThrid";
-import Stage from './staging/Stage';
+import Stage from './part-VI/Stage';
 
 
 const FtnRoot = () => {
