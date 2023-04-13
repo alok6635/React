@@ -1,0 +1,28 @@
+##### functional based components defined the ftnBased folder -
+Main page is the RootFtn.js.
+## Step -I
+Used hard coded html in MovieCard.js file.
+## Step -II
+declare a variable and used then in MovieCard.js file.
+## Step -III
+declare a variable in MovieListFirst.js file and passing the variable throw props in the MovieCard.js file.
+## Step -IV
+use the data json format in the MovieListSecond.js file and passing the data throw props index based (one by one array value) in the MovieCard.js file. and create two components.
+## Step -V
+use the data json format in the MovieListThrid.js file and passing the data throw props (hole data in one array)in the MovieCard.js file. and create three components.
+## Step -VI
+
+
+##### Class based components defined the clsBased folder -
+Main page is the ClsRoot.js.
+## part-I
+Define the state in MovieCard.js and uses the same page and call multiple component in MovieListFirst.js.
+## part-II
+Define the state in MovieListSecond.js and pass the data individually  MovieCard.js file.
+## part-III
+Define the state in MovieListThrid.js and pass the data one times in MovieCard.js file.
+## part-IV
+Define the data  in a array in.MovieListFourth.js and find the data in map ().
+
+
+
