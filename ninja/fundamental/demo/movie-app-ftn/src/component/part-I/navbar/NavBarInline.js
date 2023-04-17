@@ -1,11 +1,11 @@
 import React from 'react'
 
-const NavInline = () => {
-    return (
-      <div style={styles.nav}>
-        <div style = {styles.title}>Movie-App</div>
+const NavBarInline = () => {
+  return (
+    <div style={styles.nav}>
+        <div style={styles.title}>Movie-App</div>
         <div style={styles.cartIconContainer}>
-          <img
+        <img
             style={styles.cartIcon}
             src="https://cdn-icons-png.flaticon.com/128/891/891462.png"
             alt="cart-icon"
@@ -13,20 +13,20 @@ const NavInline = () => {
           <span style={styles.cartCount}>3</span>
         </div>
       </div>
-    );
+  )
 }
-const styles = {
-  cartIcon: {
-    height: 48,
-    marginRight: 20,
-  },
-  nav: {
+const styles={
+  nav:{
     height: 70,
     background: "#4267b2",
     display: "flex",
     justifyContent: "space-between" ,
     alignItems: "center",
     position: "relative",
+  },
+  cartIcon: {
+    height: 48,
+    marginRight: 20,
   },
   title:{
     fontSize: 30,
@@ -36,7 +36,7 @@ const styles = {
     textTransform: "uppercase",
     marginLeft: 20
   },
-cartIconContainer: {
+  cartIconContainer: {
     position: "relative",
     cursor: "pointer",
   },
@@ -49,5 +49,6 @@ cartIconContainer: {
     top: -5,
     fontSize: 12,
   },
-};
-export default NavInline;
+}
+
+export default NavBarInline

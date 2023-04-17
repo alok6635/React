@@ -2,12 +2,8 @@ import React, { useState } from 'react';
 
 function MovieCard(props) {
 //State- 
-const[counter,setCounter]=useState(0);
 //Increase-
-const handleInc=()=>{
-  setCounter(counter+1);
-  console.log(counter)
-}
+
   return (
 <div className="main">
 {
@@ -22,7 +18,7 @@ const handleInc=()=>{
     <div className="rating">{result.rating}</div>
     <div className="star-dis">
     <span className="starCount">{result.counter}</span>
-   <img src={result.incIcon} className="inc_star" onClick={handleInc}/>
+   <img src={result.incIcon} className="inc_star" />
    <img src={result.decIcon} className="dec_star"/> 
    <img src={result.delIcon} className="inc_star" />
     </div>

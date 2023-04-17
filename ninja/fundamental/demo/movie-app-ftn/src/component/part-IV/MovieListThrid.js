@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 
 const MovieListThrid = () => {
   const movies =[
@@ -33,10 +32,7 @@ const MovieListThrid = () => {
      RemCart:"Remove to Cart"
     }
   ]
-const handleInc=()=>{
-      setCounter(counter+1);
-    console.log(counter);  
-   }
+
 
   return (
     <>
@@ -54,7 +50,7 @@ const handleInc=()=>{
 <div className="rating">{result.rating}</div>
   <div className="star-dis">
     <span className="starCount">{result.counter}</span>
-  <img src={result.incIcon} className="dec_star" onClick={handleInc}/> 
+  <img src={result.incIcon} className="dec_star" /> 
    <img src={result.decIcon} className="dec_star"/> 
    <img src={result.delIcon} className="inc_star" />
     </div>

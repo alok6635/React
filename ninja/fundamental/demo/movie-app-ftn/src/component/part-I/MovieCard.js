@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import NavBarInline from './navbar/NavBarInline';
+import NavBarStyledComponents from './navbar/NavBarStyledComponents';
+
 
 let poster= "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg";
 let title="Using data as a variable-";
@@ -12,9 +15,10 @@ let delIcon="https://cdn-icons-png.flaticon.com/128/1214/1214428.png";
 let addFav="favourite";
 let addUnFav="Un-favourite";
 let AddCart="Add to Cart";
+let RemCart ="Remove to Cart";
 
-const MovieCardOne = () => {
-// state- 
+const MovieCard = () => {
+//create state- 
 const[counter,setCounter]=useState(0);
 const[fav,setFav]=useState(true); 
 const[cart,setCart]=useState(true);
@@ -35,6 +39,9 @@ const handleCart =()=>{
   setCart((prev)=>!prev)
 }
   return (
+    <>
+  {/* <NavBarInline/> */}
+  <NavBarStyledComponents/>
       <div className="main">
         <div className="movie-card">
           <div className="left">
@@ -57,8 +64,8 @@ const handleCart =()=>{
                 <button className="unfavourite-btn" onClick={handleFAv}>{addUnFav}</button>
               }
               {
-                cart? <button className="cart-btn" onClick={handleCart}>Add to Cart</button> :
-                <button className="unfavourite-btn" onClick={handleCart}>Remove to Cart</button>
+                cart? <button className="cart-btn" onClick={handleCart}>{AddCart}</button> :
+                <button className="unfavourite-btn" onClick={handleCart}>{RemCart}</button>
               }
                 
 {/* Other short  method -*/}
@@ -69,7 +76,8 @@ const handleCart =()=>{
           </div>
         </div>
         </div>
+        </>
   )
 }
 
-export default MovieCardOne; 
+export default MovieCard; 
