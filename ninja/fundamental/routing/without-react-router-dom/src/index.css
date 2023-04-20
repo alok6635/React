@@ -1,0 +1,22 @@
+main{
+  margin: auto;
+  color: white;
+}
+h1{
+  background-color: cadetblue;
+}
+.nav{
+  display: flex;
+  align-content: space-around;
+  background-color: lightblue;
+}
+h4{
+  margin:2rem;
+  width:max-content;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black ;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
-class ComponentsA extends React.Component {
 
+class LifeCycleMethod extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: "Mounting phase(constructor, static getDerivedStateFromProps, componentDidMount, render)",
+      name: "ComponentA",
     };
     console.log("ComponentA Consutructor");
   }
@@ -16,12 +16,17 @@ componentDidMount(){
     console.log("ComponentA componentDidMount");
     return null;
 }
-
   render() {
     console.log("ComponentA Render");
-    return <h3>{this.state.name}</h3>;
-  }
+    return(
+      <>
+     <h2>{this.state.name}
+     </h2>
+
+      </>
+    )  
+}
 
 }
 
-export default ComponentsA;
+export default LifeCycleMethod;
