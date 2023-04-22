@@ -6,8 +6,16 @@ export default function InputWithFunction(){
 
     useEffect(()=>{
         document.title = name+" "+lastName;
-    },[name,lastName]);
+           },[name,lastName]);
    
+    // other -
+    useEffect(()=>{
+      let timer = setInterval(() => {
+        console.log('window width :', window.innerWidth);
+      }, 2000);
+      return(clearInterval(timer));
+    })
+    
     return(
         <>
       <div className="wrapper">

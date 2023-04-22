@@ -3,11 +3,9 @@ import React, { useState } from "react";
 const InputWithFtnBased = () => {
   const [name, setName] = useState("Alok");
   const [lastName, setlastName] = useState("Kumar");
-
   const HandleLastName=(e)=>{
     setlastName(e.target.value);
   }
-
   return (
     <>
       <div className="wrapper">
@@ -22,7 +20,7 @@ const InputWithFtnBased = () => {
           <input value={lastName} onChange={HandleLastName}></input>
           <hr></hr>
         </form>
-        <h2>Hello,{name + " " + lastName}</h2>
+        <h2>Hello, {name + " " + lastName}</h2>
       </div>
     </>
   );

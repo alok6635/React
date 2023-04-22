@@ -2,10 +2,9 @@ import React from 'react'
 
 const Item = () => {
   return (
-    <div>
-      <h1>THis is a Item page</h1>
-      
-    </div>
+    <main>
+          <h1>This is a Item Page</h1>
+  </main>
   )
 }
 
