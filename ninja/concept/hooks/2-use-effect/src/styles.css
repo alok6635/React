@@ -1,0 +1,17 @@
+form {
+    width: 35%;
+    background: rosybrown;
+    border-radius: 9px;
+    border: 2px solid floralwhite;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+}
+input{
+    margin: 0 auto;
+    border: none;
+}
+.wrapper{
+    text-align: center;
+}

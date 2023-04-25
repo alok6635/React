@@ -18,9 +18,9 @@ function App() {
    {/* <MovieListSecond/> */}
    {/* <MovieListThrid/> */}
    {/* <MovieListFourth/> */}
-   <MovieListFifth/>
+   {/* <MovieListFifth/> */}
    {/* <MovieListSix/> */}
-   {/* <Staging/> */}
+   <Staging/>
    </>
   )
 }
