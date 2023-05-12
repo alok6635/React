@@ -1,0 +1,110 @@
+/* Style for the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d51111;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the To-Do List header */
+  .main h2 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main img {
+    margin-left: 10px;
+    width: 30px;
+  }
+  
+  /* Style for the input and button */
+  .main .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .main input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #121612;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 7px;
+}
+  
+  .main button:hover {
+    background-color: pink;
+  }
+  
+  /* Style for the task list */
+  .main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    background-color: #b89995;
+  }
+  .main li:hover{
+    background-color: #e9e3e3;
+  }
+  
+  .main li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Style for the task checkbox */
+  .main input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style for the task label */
+  .main label {
+    flex: 1;
+    word-break: break-all;
+  }
+  
+  /* Style for the delete button */
+  .main .delete-btn {
+    font-size: 16px;
+    color: white;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  #task{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
